@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://localhost:4000/758-evergreen-terrace/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/apropos/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/au-beau-milieu-d-un-reve/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/</loc>
@@ -13,13 +19,28 @@
 <loc>http://localhost:4000/tags/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/voies-rapides/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/images/haies/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/images/a4/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/images/jardinieres/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/images/road/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/images/voies/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/images/fenetres/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/images/pool/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/images/closer/</loc>

@@ -11,6 +11,20 @@ img[src$="centerme"] {
   margin: 0 auto;
 }
 
+a[href$="centerme"] {
+  display:block;
+  text-align: center;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 800;
+  line-height: 1.1;
+  margin: 0 auto;
+  font-size: 1.125rem;
+  color: #404040;
+  pointer-events: none; 
+  cursor: default; 
+}
+
+
 body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 1.125rem;
@@ -19,6 +33,7 @@ body {
   background-color: #FFFFFF;
   
 }
+
 p {
   line-height: 1.5;
   margin: 1.875rem 0;
@@ -41,11 +56,11 @@ h4 {
   font-size: 1.125rem;
 }
 a {
-  color: #008AFF;
+  color: #FA58F4;
 }
 a:hover,
 a:focus {
-  color: #0085A1;
+  color: #FA58F4;
 }
 blockquote {
   color: #808080;
@@ -86,12 +101,12 @@ hr.small {
 ::-moz-selection {
   color: white;
   text-shadow: none;
-  background-color: #0085A1;
+  background-color: #FA58F4;
 }
 ::selection {
   color: white;
   text-shadow: none;
-  background-color: #0085A1;
+  background-color: #FA58F4;
 }
 img::selection {
   color: white;
@@ -177,7 +192,7 @@ img {
 .navbar-custom .navbar-nav .nav-link:focus,
 .navbar-custom .navbar-nav .dropdown-item:hover,
 .navbar-custom .navbar-nav .dropdown-item:focus {
-  color: #0085A1;
+  color: #FA58F4;
 }
 
 .navbar-custom .navbar-nav .nav-item {
@@ -247,6 +262,7 @@ img {
 }
 
 .navbar-custom .nav-item.dropdown.show {
+  min-width: 108px;
   background: rgba(0, 0, 0, 0.2);
 }
 
@@ -442,7 +458,7 @@ footer .footer-custom-content {
 .post-preview a:focus,
 .post-preview a:hover {
   text-decoration: none;
-  color: #0085A1;
+  color: #FA58F4;
 }
 
 .post-preview .post-title {
@@ -506,14 +522,14 @@ footer .footer-custom-content {
 }
 
 .blog-tags a {
-  color: #008AFF;
+  color: #FA58F4;
   text-decoration: none;
   padding: 0 0.3125rem;
 }
 
 .blog-tags a:hover {
   border-radius: 2px;
-  color: #0085A1;
+  color: #FA58F4;
   background-color: #EEE;
 }
 
@@ -750,8 +766,8 @@ footer .footer-custom-content {
 .pagination .page-item .page-link:hover,
 .pagination .page-item .page-link:focus {
   color: #FFF;
-  border: 1px solid #0085A1;
-  background-color: #0085A1;
+  border: 1px solid #FA58F4;
+  background-color: #FA58F4;
 }
 
 /* --- Tables --- */
