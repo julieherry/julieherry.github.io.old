@@ -5,6 +5,6 @@ rm **/*.html-e
 sed -i -e 's/http:\/\/localhost:4000/http:\/\/julieherry.com/g' sitemap.xml && rm sitemap.xml-e
 sed -i -e 's/http:\/\/localhost:4000/http:\/\/julieherry.com/g' robots.txt && rm robots.txt-e
 sed -i -e 's/http:\/\/localhost:4000/http:\/\/julieherry.com/g' feed.xml && rm feed.xml-e
-#git add .
-#git commit -am "$(date '+%Y-%m-%d %H:%M:%S')"
+git add .
+git commit -am "$(date '+%Y-%m-%d %H:%M:%S')"
 #git push origin master
