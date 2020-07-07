@@ -5,4 +5,4 @@ sed -i -e 's/http:\/\/localhost:4000/http:\/\/julieherry.com/g' robots.txt && rm
 rm **/*.html-e
 git add .
 git commit -am "$(date '+%Y-%m-%d %H:%M:%S')"
-git push origin master
+#git push origin master
