@@ -97,3 +97,40 @@ var BeautifulJekyllJS = {
 // 2fc73a3a967e97599c9763d05e564189
 
 document.addEventListener('DOMContentLoaded', BeautifulJekyllJS.init);
+
+// Custom for Julie
+
+if (window.location.pathname == "/about/")
+  document.getElementById("container").setAttribute('class', 'col-lg-6 offset-lg-3');
+
+
+
+if (window.location.pathname == "/images/a4/" || window.location.pathname == "/images/fenetres/") {
+  const gallery = Array.from(document.getElementsByClassName("gallery-image-wrapper"));
+  document.getElementsByClassName("container")[0].innerHTML = '';
+  shuffleArray(gallery);
+  for (g in gallery)
+    document.getElementsByClassName("container")[0].appendChild(gallery[g]);
+}
+
+
+
+if (window.location.pathname =='/images/jardinieres/') {
+  $(".gallery-image-wrapper").attr('class', 'gallery-image-wrapper col-lg-4 col-md-3 col-sm-1');
+  // const gallery = Array.from(document.getElementsByClassName("gallery-image-wrapper"));
+  // document.getElementsByClassName("container")[0].innerHTML = '';
+  // for (g in gallery) {
+  //   gallery[g].setAttribute('class', 'col-lg-4 col-md-3 col-sm-1');
+  //   document.getElementsByClassName("container")[0].appendChild(gallery[g]);
+  // }
+}
+
+/* Randomize array in-place using Durstenfeld shuffle algorithm */
+function shuffleArray(array) {
+  for (var i = array.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var temp = array[i];
+      array[i] = array[j];
+      array[j] = temp;
+  }
+}
