@@ -90,6 +90,10 @@ hr.small {
 .main-content {
   padding-top: 5rem;
 }
+
+.navbar {
+  padding: 5rem 5rem;
+}
 @media (min-width: 768px) {
   .main-content {
     padding-top: 8.125rem;
@@ -126,8 +130,7 @@ hr.small {
   max-width: 100%;
 }
 
-.container {
-  max-width: 95%;
+#container {
   margin: auto;
 }
 

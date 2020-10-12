@@ -101,7 +101,7 @@ document.addEventListener('DOMContentLoaded', BeautifulJekyllJS.init);
 // Custom for Julie
 
 if (window.location.pathname == "/about/")
-  document.getElementById("container").setAttribute('class', 'col-lg-6 offset-lg-3');
+  document.getElementById("container").setAttribute('class', 'col-lg-6 offset-lg-3 col-sm-10 offset-lg-1');
 
 
 
