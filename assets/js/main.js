@@ -114,7 +114,6 @@ if (window.location.pathname == "/images/a4/" || window.location.pathname == "/i
 }
 
 
-
 if (window.location.pathname =='/images/jardinieres/') {
   $(".gallery-image-wrapper").attr('class', 'gallery-image-wrapper col-lg-4 col-md-3 col-sm-1');
   // const gallery = Array.from(document.getElementsByClassName("gallery-image-wrapper"));
