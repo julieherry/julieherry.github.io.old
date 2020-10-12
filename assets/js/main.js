@@ -115,7 +115,7 @@ if (window.location.pathname == "/images/a4/" || window.location.pathname == "/i
 
 
 if (window.location.pathname =='/images/jardinieres/') {
-  $(".gallery-image-wrapper").attr('class', 'gallery-image-wrapper col-lg-4 col-md-3 col-sm-1');
+  $(".gallery-image-wrapper").attr('class', 'gallery-image-wrapper col-lg-4 col-md-6 col-sm-10 col-xs-12');
   // const gallery = Array.from(document.getElementsByClassName("gallery-image-wrapper"));
   // document.getElementsByClassName("container")[0].innerHTML = '';
   // for (g in gallery) {
