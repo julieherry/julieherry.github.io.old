@@ -1,1 +1,1 @@
-Sitemap: http://julieherry.com/sitemap.xml
+Sitemap: https://julieherry.com/sitemap.xml
