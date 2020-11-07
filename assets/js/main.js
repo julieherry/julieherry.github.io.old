@@ -114,7 +114,7 @@ if (window.location.pathname == "/images/a4/" || window.location.pathname == "/i
 }
 
 
-if (window.location.pathname =='/images/jardinieres/') {
+if (['/images/jardinieres/','/images/haies/', '/images/closer/'].includes(window.location.pathname)) {
   $(".gallery-image-wrapper").attr('class', 'gallery-image-wrapper col-lg-4 col-md-6 col-sm-10 col-xs-12');
   // const gallery = Array.from(document.getElementsByClassName("gallery-image-wrapper"));
   // document.getElementsByClassName("container")[0].innerHTML = '';
