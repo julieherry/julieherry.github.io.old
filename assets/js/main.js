@@ -112,10 +112,9 @@ if (window.location.pathname == "/images/a4/" || window.location.pathname == "/i
   for (g in gallery)
     document.getElementsByClassName("container")[0].appendChild(gallery[g]);
   
-  $(".gallery-image-wrapper").attr('class', 'gallery-image-wrapper  col-lg-2 col-md-4 col-sm-5 col-xs-5');
+  $(".gallery-image-wrapper").attr('class', 'gallery-image-a4-fenetre  col-lg-2 col-md-4 col-sm-5 col-xs-5');
   
 }
- col-lg-2 col-md-4
 
 if (['/images/jardinieres/','/images/haies/', '/images/closer/'].includes(window.location.pathname)) {
   $(".gallery-image-wrapper").attr('class', 'gallery-image-wrapper col-lg-4 col-md-6 col-sm-10 col-xs-12');

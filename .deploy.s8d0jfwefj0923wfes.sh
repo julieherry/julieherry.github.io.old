@@ -5,7 +5,7 @@ gsed -i  's/http:\/\/localhost:4000/https:\/\/www.julieherry.com/g' sitemap.xml
 gsed -i  's/http:\/\/localhost:4000/https:\/\/www.julieherry.com/g' robots.txt
 gsed -i  's/http:\/\/localhost:4000/https:\/\/www.julieherry.com/g' feed.xml
 git add  .
-# git commit -am "$(date '+%Y-%m-%d %H:%M:%S')"
 
 # ls **/*.html | xargs -I{}  gsed -i 's/http:\/\/localhost:4000/https:\/\/julieherry.com/g' {}
+# git commit -am "$(date '+%Y-%m-%d %H:%M:%S')"
 # git push origin master
